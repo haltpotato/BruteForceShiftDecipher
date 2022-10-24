@@ -23,7 +23,6 @@ for h in range(0, 26): #Loop for 25 shifts
     for i in range(0, len(sCipherText)): #Loop to detect string match
         for j in range(0, 26): #Loop to compare string variable i
             if enPhabet[j] == sCipherText[i] and h != 0:
-                #poprint('Match = ' + enPhabet[j])
                 if j + h <= len(enPhabet) - 1:
                     char = enPhabet[j + h]
                     newPhabet.append(char)
