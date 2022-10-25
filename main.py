@@ -34,5 +34,5 @@ for h in range(0, 26): #Loop for 25 shifts
     # Print Each Subset (Should be 25 for 25 shifts 'h')
     if not len(newPhabet) == 0:
         sResult = ''.join(newPhabet)
-        sPost = str(h)
-        print(sPost + ' - ' + sResult)
+        sPos = str(h)
+        print(sPos + ' - ' + sResult)
